@@ -8,7 +8,9 @@
 
 #import "JKYHomeViewController.h"
 #import "JKYTabBarViewController.h"
+#import "JKYContactListViewController.h"
 
+//static NSString *const kCellVCName = @"vcName";
 
 #define kCellVCName @"vcName"
 #define kCellTitle  @"title"
@@ -61,6 +63,12 @@
                            kCellVCName : @"JKYPageSlideViewController",
                            kCellTitle : @"左右滑动",
                            kCellText : @"左右滑动切换页面",
+                           },
+                       @{
+                           kCellVCName : @"JKYContactListViewController",
+                           kCellTitle : @"通讯录",
+                           kCellText : @"显示好友列表",
+                           //                           kCellImage : @"",
                            },
                        ];
     return items;

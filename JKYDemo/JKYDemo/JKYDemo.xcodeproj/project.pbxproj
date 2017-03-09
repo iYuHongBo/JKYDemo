@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		B04DD1501E6FF996009CF23E /* JKYSlideTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = B04DD14F1E6FF996009CF23E /* JKYSlideTabBarView.m */; };
+		B04DD15B1E6FFCBB009CF23E /* JKYContactListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B04DD15A1E6FFCBB009CF23E /* JKYContactListViewController.m */; };
+		B04DD15E1E70049B009CF23E /* JKYGroupDataCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = B04DD15D1E70049B009CF23E /* JKYGroupDataCollection.m */; };
+		B04DD1611E70230C009CF23E /* JKYGroupUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B04DD1601E70230C009CF23E /* JKYGroupUserInfo.m */; };
+		B04DD16A1E702791009CF23E /* JKYPinyinConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = B04DD1671E702791009CF23E /* JKYPinyinConverter.m */; };
+		B04DD16B1E702791009CF23E /* JKYSpellingCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = B04DD1691E702791009CF23E /* JKYSpellingCenter.m */; };
+		B05509C41E70FE5500FB9DA8 /* JKYGroupContacts.m in Sources */ = {isa = PBXBuildFile; fileRef = B05509C31E70FE5500FB9DA8 /* JKYGroupContacts.m */; };
 		B08F8E181E6D094300095FD6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B08F8E171E6D094300095FD6 /* main.m */; };
 		B08F8E231E6D094300095FD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B08F8E221E6D094300095FD6 /* Assets.xcassets */; };
 		B08F8E261E6D094300095FD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B08F8E241E6D094300095FD6 /* LaunchScreen.storyboard */; };
@@ -39,6 +45,19 @@
 /* Begin PBXFileReference section */
 		B04DD14E1E6FF996009CF23E /* JKYSlideTabBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKYSlideTabBarView.h; sourceTree = "<group>"; };
 		B04DD14F1E6FF996009CF23E /* JKYSlideTabBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKYSlideTabBarView.m; sourceTree = "<group>"; };
+		B04DD1591E6FFCBB009CF23E /* JKYContactListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKYContactListViewController.h; sourceTree = "<group>"; };
+		B04DD15A1E6FFCBB009CF23E /* JKYContactListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKYContactListViewController.m; sourceTree = "<group>"; };
+		B04DD15C1E70049B009CF23E /* JKYGroupDataCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKYGroupDataCollection.h; sourceTree = "<group>"; };
+		B04DD15D1E70049B009CF23E /* JKYGroupDataCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKYGroupDataCollection.m; sourceTree = "<group>"; };
+		B04DD15F1E70230C009CF23E /* JKYGroupUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKYGroupUserInfo.h; sourceTree = "<group>"; };
+		B04DD1601E70230C009CF23E /* JKYGroupUserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKYGroupUserInfo.m; sourceTree = "<group>"; };
+		B04DD1661E702791009CF23E /* JKYPinyinConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKYPinyinConverter.h; sourceTree = "<group>"; };
+		B04DD1671E702791009CF23E /* JKYPinyinConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKYPinyinConverter.m; sourceTree = "<group>"; };
+		B04DD1681E702791009CF23E /* JKYSpellingCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKYSpellingCenter.h; sourceTree = "<group>"; };
+		B04DD1691E702791009CF23E /* JKYSpellingCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKYSpellingCenter.m; sourceTree = "<group>"; };
+		B05509C21E70FE5500FB9DA8 /* JKYGroupContacts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKYGroupContacts.h; sourceTree = "<group>"; };
+		B05509C31E70FE5500FB9DA8 /* JKYGroupContacts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKYGroupContacts.m; sourceTree = "<group>"; };
+		B05509C51E71036B00FB9DA8 /* JKYGroupMemberProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKYGroupMemberProtocol.h; sourceTree = "<group>"; };
 		B08F8E131E6D094300095FD6 /* JKYDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKYDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B08F8E171E6D094300095FD6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B08F8E221E6D094300095FD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -88,6 +107,8 @@
 		B04DD14C1E6FF996009CF23E /* JKYKit */ = {
 			isa = PBXGroup;
 			children = (
+				B04DD1641E70277F009CF23E /* JKYUtil */,
+				B04DD1551E6FFC4C009CF23E /* JKYContactListViewController */,
 				B04DD14D1E6FF996009CF23E /* JKYSlideTabBarView */,
 			);
 			path = JKYKit;
@@ -100,6 +121,65 @@
 				B04DD14F1E6FF996009CF23E /* JKYSlideTabBarView.m */,
 			);
 			path = JKYSlideTabBarView;
+			sourceTree = "<group>";
+		};
+		B04DD1551E6FFC4C009CF23E /* JKYContactListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B04DD1561E6FFCA9009CF23E /* Model */,
+				B04DD1571E6FFCA9009CF23E /* View */,
+				B04DD1581E6FFCA9009CF23E /* ViewController */,
+			);
+			path = JKYContactListViewController;
+			sourceTree = "<group>";
+		};
+		B04DD1561E6FFCA9009CF23E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B05509C51E71036B00FB9DA8 /* JKYGroupMemberProtocol.h */,
+				B04DD15C1E70049B009CF23E /* JKYGroupDataCollection.h */,
+				B04DD15D1E70049B009CF23E /* JKYGroupDataCollection.m */,
+				B04DD15F1E70230C009CF23E /* JKYGroupUserInfo.h */,
+				B04DD1601E70230C009CF23E /* JKYGroupUserInfo.m */,
+				B05509C21E70FE5500FB9DA8 /* JKYGroupContacts.h */,
+				B05509C31E70FE5500FB9DA8 /* JKYGroupContacts.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B04DD1571E6FFCA9009CF23E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B04DD1581E6FFCA9009CF23E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B04DD1591E6FFCBB009CF23E /* JKYContactListViewController.h */,
+				B04DD15A1E6FFCBB009CF23E /* JKYContactListViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		B04DD1641E70277F009CF23E /* JKYUtil */ = {
+			isa = PBXGroup;
+			children = (
+				B04DD1651E702791009CF23E /* Spelling */,
+			);
+			path = JKYUtil;
+			sourceTree = "<group>";
+		};
+		B04DD1651E702791009CF23E /* Spelling */ = {
+			isa = PBXGroup;
+			children = (
+				B04DD1661E702791009CF23E /* JKYPinyinConverter.h */,
+				B04DD1671E702791009CF23E /* JKYPinyinConverter.m */,
+				B04DD1681E702791009CF23E /* JKYSpellingCenter.h */,
+				B04DD1691E702791009CF23E /* JKYSpellingCenter.m */,
+			);
+			path = Spelling;
 			sourceTree = "<group>";
 		};
 		B08F8E0A1E6D094300095FD6 = {
@@ -366,9 +446,15 @@
 			files = (
 				B08F8E4E1E6D0E1600095FD6 /* AppDelegate.m in Sources */,
 				B08F8E181E6D094300095FD6 /* main.m in Sources */,
+				B04DD15E1E70049B009CF23E /* JKYGroupDataCollection.m in Sources */,
+				B05509C41E70FE5500FB9DA8 /* JKYGroupContacts.m in Sources */,
+				B04DD15B1E6FFCBB009CF23E /* JKYContactListViewController.m in Sources */,
 				B04DD1501E6FF996009CF23E /* JKYSlideTabBarView.m in Sources */,
 				B08F8E631E6D585800095FD6 /* JKYPageSlideViewController.m in Sources */,
+				B04DD16A1E702791009CF23E /* JKYPinyinConverter.m in Sources */,
 				B08F8E521E6D102000095FD6 /* JKYTabBarViewController.m in Sources */,
+				B04DD16B1E702791009CF23E /* JKYSpellingCenter.m in Sources */,
+				B04DD1611E70230C009CF23E /* JKYGroupUserInfo.m in Sources */,
 				B08F8E5C1E6D3BCB00095FD6 /* JKYHomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
