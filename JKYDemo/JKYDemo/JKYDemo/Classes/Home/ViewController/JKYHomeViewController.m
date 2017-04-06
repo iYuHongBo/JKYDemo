@@ -9,6 +9,7 @@
 #import "JKYHomeViewController.h"
 #import "JKYTabBarViewController.h"
 #import "JKYContactListViewController.h"
+#import "JKYCustomUIViewController.h"
 
 //static NSString *const kCellVCName = @"vcName";
 
@@ -70,6 +71,11 @@
                            kCellText : @"显示好友列表",
                            //                           kCellImage : @"",
                            },
+                       @{
+                           kCellVCName : @"JKYCustomUIViewController",
+                           kCellTitle : @"自定义UIView",
+                           kCellText : @"自定义UIView",
+                           },
                        ];
     return items;
 }
@@ -101,6 +107,8 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
     NSString *className = _cellArray[indexPath.row][kCellVCName];
     Class class = NSClassFromString(className);
     UIViewController *vc = [[class alloc] init];
