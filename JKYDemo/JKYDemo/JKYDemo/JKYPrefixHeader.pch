@@ -1,0 +1,19 @@
+//
+//  JKYPrefixHeader.pch
+//  JKYDemo
+//
+//  Created by Jacky Yu on 2017/4/6.
+//  Copyright © 2017年 Jacky Yu. All rights reserved.
+//
+
+#ifndef JKYPrefixHeader_pch
+#define JKYPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "JKYMacro.h"
+
+
+
+#endif /* JKYPrefixHeader_pch */
