@@ -616,7 +616,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7Z9B2R5HF8;
-				GCC_PREFIX_HEADER = "/Users/jackyyu/Documents/Learning/Projects/Code of iOS/JKYDemo/JKYDemo/JKYDemo/JKYDemo/JKYPrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/JKYPrefixHeader.pch";
 				INFOPLIST_FILE = JKYDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jky.JKYDemo;
@@ -629,7 +629,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7Z9B2R5HF8;
-				GCC_PREFIX_HEADER = "/Users/jackyyu/Documents/Learning/Projects/Code of iOS/JKYDemo/JKYDemo/JKYDemo/JKYDemo/JKYPrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/JKYPrefixHeader.pch";
 				INFOPLIST_FILE = JKYDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jky.JKYDemo;
