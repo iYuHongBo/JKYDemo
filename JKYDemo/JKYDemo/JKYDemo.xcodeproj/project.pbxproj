@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8703AB2D0AB7D51EA2FACAF2 /* libPods-JKYDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C2C69D7055374F218FFDBB7 /* libPods-JKYDemoUITests.a */; };
+		93BDCE3B392DA5CDCC899E4D /* libPods-JKYDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C57800357566CDC4B9F218CE /* libPods-JKYDemo.a */; };
 		B04DD1501E6FF996009CF23E /* JKYSlideTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = B04DD14F1E6FF996009CF23E /* JKYSlideTabBarView.m */; };
 		B04DD15B1E6FFCBB009CF23E /* JKYContactListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B04DD15A1E6FFCBB009CF23E /* JKYContactListViewController.m */; };
 		B04DD15E1E70049B009CF23E /* JKYGroupDataCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = B04DD15D1E70049B009CF23E /* JKYGroupDataCollection.m */; };
@@ -14,6 +16,8 @@
 		B04DD16A1E702791009CF23E /* JKYPinyinConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = B04DD1671E702791009CF23E /* JKYPinyinConverter.m */; };
 		B04DD16B1E702791009CF23E /* JKYSpellingCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = B04DD1691E702791009CF23E /* JKYSpellingCenter.m */; };
 		B05509C41E70FE5500FB9DA8 /* JKYGroupContacts.m in Sources */ = {isa = PBXBuildFile; fileRef = B05509C31E70FE5500FB9DA8 /* JKYGroupContacts.m */; };
+		B06504B51EA5E45A005A6A11 /* JKYImagePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B06504B41EA5E45A005A6A11 /* JKYImagePickerViewController.m */; };
+		B067083E1E978B260098C6C8 /* JKYImagePickerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B067083D1E978B260098C6C8 /* JKYImagePickerManager.m */; };
 		B0683A991E962DA40014FF0B /* JKYUploadImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0683A981E962DA40014FF0B /* JKYUploadImageView.m */; };
 		B0683AA11E9634F00014FF0B /* JKYProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0683AA01E9634F00014FF0B /* JKYProgressView.m */; };
 		B0683AA41E9636D10014FF0B /* JKYImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0683AA31E9636D10014FF0B /* JKYImageView.m */; };
@@ -27,6 +31,7 @@
 		B08F8E521E6D102000095FD6 /* JKYTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B08F8E511E6D102000095FD6 /* JKYTabBarViewController.m */; };
 		B08F8E5C1E6D3BCB00095FD6 /* JKYHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B08F8E5B1E6D3BCB00095FD6 /* JKYHomeViewController.m */; };
 		B08F8E631E6D585800095FD6 /* JKYPageSlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B08F8E621E6D585800095FD6 /* JKYPageSlideViewController.m */; };
+		B5C3CD94A0B532573F4AB22F /* libPods-JKYDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D83AA2CDF7C94DFF2EA8330 /* libPods-JKYDemoTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1588022A47E710992AF2E000 /* Pods-JKYDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKYDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JKYDemo/Pods-JKYDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		1C7B4AB6DF8264D67359DBF8 /* Pods-JKYDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKYDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JKYDemoUITests/Pods-JKYDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		338974797EDC6DFE54F77C35 /* Pods-JKYDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKYDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JKYDemoTests/Pods-JKYDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4C2C69D7055374F218FFDBB7 /* libPods-JKYDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JKYDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		797ACD99F0F57F9C75E10047 /* Pods-JKYDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKYDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-JKYDemo/Pods-JKYDemo.release.xcconfig"; sourceTree = "<group>"; };
+		8B44CC286CEBF60FB1D287DE /* Pods-JKYDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKYDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JKYDemoUITests/Pods-JKYDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8D83AA2CDF7C94DFF2EA8330 /* libPods-JKYDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JKYDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B04DD14E1E6FF996009CF23E /* JKYSlideTabBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKYSlideTabBarView.h; sourceTree = "<group>"; };
 		B04DD14F1E6FF996009CF23E /* JKYSlideTabBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKYSlideTabBarView.m; sourceTree = "<group>"; };
 		B04DD1591E6FFCBB009CF23E /* JKYContactListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKYContactListViewController.h; sourceTree = "<group>"; };
@@ -62,6 +74,10 @@
 		B05509C21E70FE5500FB9DA8 /* JKYGroupContacts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKYGroupContacts.h; sourceTree = "<group>"; };
 		B05509C31E70FE5500FB9DA8 /* JKYGroupContacts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKYGroupContacts.m; sourceTree = "<group>"; };
 		B05509C51E71036B00FB9DA8 /* JKYGroupMemberProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKYGroupMemberProtocol.h; sourceTree = "<group>"; };
+		B06504B31EA5E45A005A6A11 /* JKYImagePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKYImagePickerViewController.h; sourceTree = "<group>"; };
+		B06504B41EA5E45A005A6A11 /* JKYImagePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKYImagePickerViewController.m; sourceTree = "<group>"; };
+		B067083C1E978B260098C6C8 /* JKYImagePickerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKYImagePickerManager.h; sourceTree = "<group>"; };
+		B067083D1E978B260098C6C8 /* JKYImagePickerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKYImagePickerManager.m; sourceTree = "<group>"; };
 		B0683A971E962DA40014FF0B /* JKYUploadImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKYUploadImageView.h; sourceTree = "<group>"; };
 		B0683A981E962DA40014FF0B /* JKYUploadImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKYUploadImageView.m; sourceTree = "<group>"; };
 		B0683A9D1E962EA20014FF0B /* JKYMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKYMacro.h; sourceTree = "<group>"; };
@@ -91,6 +107,8 @@
 		B08F8E5B1E6D3BCB00095FD6 /* JKYHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKYHomeViewController.m; sourceTree = "<group>"; };
 		B08F8E611E6D585800095FD6 /* JKYPageSlideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKYPageSlideViewController.h; sourceTree = "<group>"; };
 		B08F8E621E6D585800095FD6 /* JKYPageSlideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKYPageSlideViewController.m; sourceTree = "<group>"; };
+		C57800357566CDC4B9F218CE /* libPods-JKYDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JKYDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E58F73A54C1407D058871D64 /* Pods-JKYDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKYDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JKYDemoTests/Pods-JKYDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93BDCE3B392DA5CDCC899E4D /* libPods-JKYDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5C3CD94A0B532573F4AB22F /* libPods-JKYDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,12 +132,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8703AB2D0AB7D51EA2FACAF2 /* libPods-JKYDemoUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A6DBD4BC740C8E879CA319A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1588022A47E710992AF2E000 /* Pods-JKYDemo.debug.xcconfig */,
+				797ACD99F0F57F9C75E10047 /* Pods-JKYDemo.release.xcconfig */,
+				338974797EDC6DFE54F77C35 /* Pods-JKYDemoTests.debug.xcconfig */,
+				E58F73A54C1407D058871D64 /* Pods-JKYDemoTests.release.xcconfig */,
+				1C7B4AB6DF8264D67359DBF8 /* Pods-JKYDemoUITests.debug.xcconfig */,
+				8B44CC286CEBF60FB1D287DE /* Pods-JKYDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B04DD14C1E6FF996009CF23E /* JKYKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +159,7 @@
 				B0683A961E962D880014FF0B /* JKYCustomUI */,
 				B04DD1551E6FFC4C009CF23E /* JKYContactListViewController */,
 				B04DD14D1E6FF996009CF23E /* JKYSlideTabBarView */,
+				B067083A1E978AA90098C6C8 /* JKYImagePicker */,
 			);
 			path = JKYKit;
 			sourceTree = "<group>";
@@ -198,6 +233,23 @@
 			path = Spelling;
 			sourceTree = "<group>";
 		};
+		B067083A1E978AA90098C6C8 /* JKYImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				B067083B1E978ACE0098C6C8 /* Manager */,
+			);
+			path = JKYImagePicker;
+			sourceTree = "<group>";
+		};
+		B067083B1E978ACE0098C6C8 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				B067083C1E978B260098C6C8 /* JKYImagePickerManager.h */,
+				B067083D1E978B260098C6C8 /* JKYImagePickerManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
 		B0683A961E962D880014FF0B /* JKYCustomUI */ = {
 			isa = PBXGroup;
 			children = (
@@ -218,6 +270,8 @@
 				B08F8E2F1E6D094300095FD6 /* JKYDemoTests */,
 				B08F8E3A1E6D094300095FD6 /* JKYDemoUITests */,
 				B08F8E141E6D094300095FD6 /* Products */,
+				A6DBD4BC740C8E879CA319A9 /* Pods */,
+				C0A1F4E842B69DA032D9DFA9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -340,8 +394,20 @@
 				B08F8E621E6D585800095FD6 /* JKYPageSlideViewController.m */,
 				B0683AA51E9639640014FF0B /* JKYCustomUIViewController.h */,
 				B0683AA61E9639640014FF0B /* JKYCustomUIViewController.m */,
+				B06504B31EA5E45A005A6A11 /* JKYImagePickerViewController.h */,
+				B06504B41EA5E45A005A6A11 /* JKYImagePickerViewController.m */,
 			);
 			path = CellDetailViewController;
+			sourceTree = "<group>";
+		};
+		C0A1F4E842B69DA032D9DFA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C57800357566CDC4B9F218CE /* libPods-JKYDemo.a */,
+				8D83AA2CDF7C94DFF2EA8330 /* libPods-JKYDemoTests.a */,
+				4C2C69D7055374F218FFDBB7 /* libPods-JKYDemoUITests.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -351,9 +417,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B08F8E401E6D094300095FD6 /* Build configuration list for PBXNativeTarget "JKYDemo" */;
 			buildPhases = (
+				573A6A7FDA6659E49DE1B23A /* [CP] Check Pods Manifest.lock */,
 				B08F8E0F1E6D094300095FD6 /* Sources */,
 				B08F8E101E6D094300095FD6 /* Frameworks */,
 				B08F8E111E6D094300095FD6 /* Resources */,
+				838F279F45237C49B6E6AE0E /* [CP] Embed Pods Frameworks */,
+				55939F0FCDBF9603ED7AF79B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -368,9 +437,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B08F8E431E6D094300095FD6 /* Build configuration list for PBXNativeTarget "JKYDemoTests" */;
 			buildPhases = (
+				2A6D88A221000EA64A6621B9 /* [CP] Check Pods Manifest.lock */,
 				B08F8E281E6D094300095FD6 /* Sources */,
 				B08F8E291E6D094300095FD6 /* Frameworks */,
 				B08F8E2A1E6D094300095FD6 /* Resources */,
+				154D3CB478476866CC797BC8 /* [CP] Embed Pods Frameworks */,
+				5A8BF967F71D28E9D1D10069 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -386,9 +458,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B08F8E461E6D094300095FD6 /* Build configuration list for PBXNativeTarget "JKYDemoUITests" */;
 			buildPhases = (
+				E8A40CC0BF2E5ACCC517DE0A /* [CP] Check Pods Manifest.lock */,
 				B08F8E331E6D094300095FD6 /* Sources */,
 				B08F8E341E6D094300095FD6 /* Frameworks */,
 				B08F8E351E6D094300095FD6 /* Resources */,
+				1B78C77B724CE27086E9CD1A /* [CP] Embed Pods Frameworks */,
+				65FC80190930B4118D8A05F6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -472,6 +547,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		154D3CB478476866CC797BC8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JKYDemoTests/Pods-JKYDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1B78C77B724CE27086E9CD1A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JKYDemoUITests/Pods-JKYDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A6D88A221000EA64A6621B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		55939F0FCDBF9603ED7AF79B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JKYDemo/Pods-JKYDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		573A6A7FDA6659E49DE1B23A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5A8BF967F71D28E9D1D10069 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JKYDemoTests/Pods-JKYDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65FC80190930B4118D8A05F6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JKYDemoUITests/Pods-JKYDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		838F279F45237C49B6E6AE0E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JKYDemo/Pods-JKYDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8A40CC0BF2E5ACCC517DE0A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B08F8E0F1E6D094300095FD6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -486,9 +699,11 @@
 				B04DD15B1E6FFCBB009CF23E /* JKYContactListViewController.m in Sources */,
 				B04DD1501E6FF996009CF23E /* JKYSlideTabBarView.m in Sources */,
 				B08F8E631E6D585800095FD6 /* JKYPageSlideViewController.m in Sources */,
+				B067083E1E978B260098C6C8 /* JKYImagePickerManager.m in Sources */,
 				B0683A991E962DA40014FF0B /* JKYUploadImageView.m in Sources */,
 				B04DD16A1E702791009CF23E /* JKYPinyinConverter.m in Sources */,
 				B08F8E521E6D102000095FD6 /* JKYTabBarViewController.m in Sources */,
+				B06504B51EA5E45A005A6A11 /* JKYImagePickerViewController.m in Sources */,
 				B0683AA71E9639640014FF0B /* JKYCustomUIViewController.m in Sources */,
 				B04DD16B1E702791009CF23E /* JKYSpellingCenter.m in Sources */,
 				B04DD1611E70230C009CF23E /* JKYGroupUserInfo.m in Sources */,
@@ -631,6 +846,7 @@
 		};
 		B08F8E411E6D094300095FD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1588022A47E710992AF2E000 /* Pods-JKYDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7Z9B2R5HF8;
@@ -644,6 +860,7 @@
 		};
 		B08F8E421E6D094300095FD6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 797ACD99F0F57F9C75E10047 /* Pods-JKYDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7Z9B2R5HF8;
@@ -657,6 +874,7 @@
 		};
 		B08F8E441E6D094300095FD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 338974797EDC6DFE54F77C35 /* Pods-JKYDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = JKYDemoTests/Info.plist;
@@ -669,6 +887,7 @@
 		};
 		B08F8E451E6D094300095FD6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E58F73A54C1407D058871D64 /* Pods-JKYDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = JKYDemoTests/Info.plist;
@@ -681,6 +900,7 @@
 		};
 		B08F8E471E6D094300095FD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C7B4AB6DF8264D67359DBF8 /* Pods-JKYDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = JKYDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -692,6 +912,7 @@
 		};
 		B08F8E481E6D094300095FD6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B44CC286CEBF60FB1D287DE /* Pods-JKYDemoUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = JKYDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
