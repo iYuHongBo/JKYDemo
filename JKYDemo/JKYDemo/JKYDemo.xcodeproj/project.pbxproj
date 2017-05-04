@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		8703AB2D0AB7D51EA2FACAF2 /* libPods-JKYDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C2C69D7055374F218FFDBB7 /* libPods-JKYDemoUITests.a */; };
 		93BDCE3B392DA5CDCC899E4D /* libPods-JKYDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C57800357566CDC4B9F218CE /* libPods-JKYDemo.a */; };
+		B01B05A41EB8825300B69364 /* JKYDatePickerDate.m in Sources */ = {isa = PBXBuildFile; fileRef = B01B05A31EB8825300B69364 /* JKYDatePickerDate.m */; };
+		B01B05A71EB885D600B69364 /* JKYDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B01B05A61EB885D600B69364 /* JKYDatePickerView.m */; };
 		B04DD1501E6FF996009CF23E /* JKYSlideTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = B04DD14F1E6FF996009CF23E /* JKYSlideTabBarView.m */; };
 		B04DD15B1E6FFCBB009CF23E /* JKYContactListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B04DD15A1E6FFCBB009CF23E /* JKYContactListViewController.m */; };
 		B04DD15E1E70049B009CF23E /* JKYGroupDataCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = B04DD15D1E70049B009CF23E /* JKYGroupDataCollection.m */; };
@@ -16,7 +18,7 @@
 		B04DD16A1E702791009CF23E /* JKYPinyinConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = B04DD1671E702791009CF23E /* JKYPinyinConverter.m */; };
 		B04DD16B1E702791009CF23E /* JKYSpellingCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = B04DD1691E702791009CF23E /* JKYSpellingCenter.m */; };
 		B05509C41E70FE5500FB9DA8 /* JKYGroupContacts.m in Sources */ = {isa = PBXBuildFile; fileRef = B05509C31E70FE5500FB9DA8 /* JKYGroupContacts.m */; };
-		B06504B51EA5E45A005A6A11 /* JKYImagePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B06504B41EA5E45A005A6A11 /* JKYImagePickerViewController.m */; };
+		B06504B51EA5E45A005A6A11 /* JKYDatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B06504B41EA5E45A005A6A11 /* JKYDatePickerViewController.m */; };
 		B067083E1E978B260098C6C8 /* JKYImagePickerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B067083D1E978B260098C6C8 /* JKYImagePickerManager.m */; };
 		B0683A991E962DA40014FF0B /* JKYUploadImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0683A981E962DA40014FF0B /* JKYUploadImageView.m */; };
 		B0683AA11E9634F00014FF0B /* JKYProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0683AA01E9634F00014FF0B /* JKYProgressView.m */; };
@@ -59,6 +61,10 @@
 		797ACD99F0F57F9C75E10047 /* Pods-JKYDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKYDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-JKYDemo/Pods-JKYDemo.release.xcconfig"; sourceTree = "<group>"; };
 		8B44CC286CEBF60FB1D287DE /* Pods-JKYDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKYDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JKYDemoUITests/Pods-JKYDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		8D83AA2CDF7C94DFF2EA8330 /* libPods-JKYDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JKYDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B01B05A21EB8825300B69364 /* JKYDatePickerDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKYDatePickerDate.h; sourceTree = "<group>"; };
+		B01B05A31EB8825300B69364 /* JKYDatePickerDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKYDatePickerDate.m; sourceTree = "<group>"; };
+		B01B05A51EB885D600B69364 /* JKYDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKYDatePickerView.h; sourceTree = "<group>"; };
+		B01B05A61EB885D600B69364 /* JKYDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKYDatePickerView.m; sourceTree = "<group>"; };
 		B04DD14E1E6FF996009CF23E /* JKYSlideTabBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKYSlideTabBarView.h; sourceTree = "<group>"; };
 		B04DD14F1E6FF996009CF23E /* JKYSlideTabBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKYSlideTabBarView.m; sourceTree = "<group>"; };
 		B04DD1591E6FFCBB009CF23E /* JKYContactListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKYContactListViewController.h; sourceTree = "<group>"; };
@@ -74,8 +80,8 @@
 		B05509C21E70FE5500FB9DA8 /* JKYGroupContacts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKYGroupContacts.h; sourceTree = "<group>"; };
 		B05509C31E70FE5500FB9DA8 /* JKYGroupContacts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKYGroupContacts.m; sourceTree = "<group>"; };
 		B05509C51E71036B00FB9DA8 /* JKYGroupMemberProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKYGroupMemberProtocol.h; sourceTree = "<group>"; };
-		B06504B31EA5E45A005A6A11 /* JKYImagePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKYImagePickerViewController.h; sourceTree = "<group>"; };
-		B06504B41EA5E45A005A6A11 /* JKYImagePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKYImagePickerViewController.m; sourceTree = "<group>"; };
+		B06504B31EA5E45A005A6A11 /* JKYDatePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKYDatePickerViewController.h; sourceTree = "<group>"; };
+		B06504B41EA5E45A005A6A11 /* JKYDatePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKYDatePickerViewController.m; sourceTree = "<group>"; };
 		B067083C1E978B260098C6C8 /* JKYImagePickerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKYImagePickerManager.h; sourceTree = "<group>"; };
 		B067083D1E978B260098C6C8 /* JKYImagePickerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKYImagePickerManager.m; sourceTree = "<group>"; };
 		B0683A971E962DA40014FF0B /* JKYUploadImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKYUploadImageView.h; sourceTree = "<group>"; };
@@ -152,6 +158,33 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		B02BD7DC1EB87C380039D05B /* JKYDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				B02BD7DD1EB87C380039D05B /* Model */,
+				B02BD7DE1EB87C380039D05B /* View */,
+			);
+			path = JKYDatePicker;
+			sourceTree = "<group>";
+		};
+		B02BD7DD1EB87C380039D05B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B01B05A21EB8825300B69364 /* JKYDatePickerDate.h */,
+				B01B05A31EB8825300B69364 /* JKYDatePickerDate.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B02BD7DE1EB87C380039D05B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B01B05A51EB885D600B69364 /* JKYDatePickerView.h */,
+				B01B05A61EB885D600B69364 /* JKYDatePickerView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		B04DD14C1E6FF996009CF23E /* JKYKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -160,6 +193,7 @@
 				B04DD1551E6FFC4C009CF23E /* JKYContactListViewController */,
 				B04DD14D1E6FF996009CF23E /* JKYSlideTabBarView */,
 				B067083A1E978AA90098C6C8 /* JKYImagePicker */,
+				B02BD7DC1EB87C380039D05B /* JKYDatePicker */,
 			);
 			path = JKYKit;
 			sourceTree = "<group>";
@@ -394,8 +428,8 @@
 				B08F8E621E6D585800095FD6 /* JKYPageSlideViewController.m */,
 				B0683AA51E9639640014FF0B /* JKYCustomUIViewController.h */,
 				B0683AA61E9639640014FF0B /* JKYCustomUIViewController.m */,
-				B06504B31EA5E45A005A6A11 /* JKYImagePickerViewController.h */,
-				B06504B41EA5E45A005A6A11 /* JKYImagePickerViewController.m */,
+				B06504B31EA5E45A005A6A11 /* JKYDatePickerViewController.h */,
+				B06504B41EA5E45A005A6A11 /* JKYDatePickerViewController.m */,
 			);
 			path = CellDetailViewController;
 			sourceTree = "<group>";
@@ -696,14 +730,16 @@
 				B04DD15E1E70049B009CF23E /* JKYGroupDataCollection.m in Sources */,
 				B05509C41E70FE5500FB9DA8 /* JKYGroupContacts.m in Sources */,
 				B0683AA11E9634F00014FF0B /* JKYProgressView.m in Sources */,
+				B01B05A41EB8825300B69364 /* JKYDatePickerDate.m in Sources */,
 				B04DD15B1E6FFCBB009CF23E /* JKYContactListViewController.m in Sources */,
 				B04DD1501E6FF996009CF23E /* JKYSlideTabBarView.m in Sources */,
 				B08F8E631E6D585800095FD6 /* JKYPageSlideViewController.m in Sources */,
 				B067083E1E978B260098C6C8 /* JKYImagePickerManager.m in Sources */,
+				B01B05A71EB885D600B69364 /* JKYDatePickerView.m in Sources */,
 				B0683A991E962DA40014FF0B /* JKYUploadImageView.m in Sources */,
 				B04DD16A1E702791009CF23E /* JKYPinyinConverter.m in Sources */,
 				B08F8E521E6D102000095FD6 /* JKYTabBarViewController.m in Sources */,
-				B06504B51EA5E45A005A6A11 /* JKYImagePickerViewController.m in Sources */,
+				B06504B51EA5E45A005A6A11 /* JKYDatePickerViewController.m in Sources */,
 				B0683AA71E9639640014FF0B /* JKYCustomUIViewController.m in Sources */,
 				B04DD16B1E702791009CF23E /* JKYSpellingCenter.m in Sources */,
 				B04DD1611E70230C009CF23E /* JKYGroupUserInfo.m in Sources */,

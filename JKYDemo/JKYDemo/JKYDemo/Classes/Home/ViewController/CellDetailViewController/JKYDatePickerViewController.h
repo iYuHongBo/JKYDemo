@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface JKYImagePickerViewController : UIViewController
+@interface JKYDatePickerViewController : UIViewController
 
 @end

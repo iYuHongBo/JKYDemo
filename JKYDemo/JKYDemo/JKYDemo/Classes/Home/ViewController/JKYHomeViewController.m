@@ -10,7 +10,7 @@
 #import "JKYTabBarViewController.h"
 #import "JKYContactListViewController.h"
 #import "JKYCustomUIViewController.h"
-#import "JKYImagePickerViewController.h"
+#import "JKYDatePickerViewController.h"
 
 //static NSString *const kCellVCName = @"vcName";
 
@@ -78,9 +78,9 @@
                            kCellText : @"自定义UIView",
                            },
                        @{
-                           kCellVCName : @"JKYImagePickerViewController",
-                           kCellTitle : @"图片选择器",
-                           kCellText : @"图片选择器",
+                           kCellVCName : @"JKYDatePickerViewController",
+                           kCellTitle : @"时间选择器",
+                           kCellText : @"时间选择器",
                            },
                        ];
     return items;
