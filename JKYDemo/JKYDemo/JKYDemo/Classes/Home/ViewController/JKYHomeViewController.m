@@ -11,6 +11,7 @@
 #import "JKYContactListViewController.h"
 #import "JKYCustomUIViewController.h"
 #import "JKYDatePickerViewController.h"
+#import "JKYAnimationViewController.h"
 
 //static NSString *const kCellVCName = @"vcName";
 
@@ -81,6 +82,11 @@
                            kCellVCName : @"JKYDatePickerViewController",
                            kCellTitle : @"时间选择器",
                            kCellText : @"时间选择器",
+                           },
+                       @{
+                           kCellVCName : @"JKYAnimationViewController",
+                           kCellTitle : @"动画",
+                           kCellText : @"动画",
                            },
                        ];
     return items;
