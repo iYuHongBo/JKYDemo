@@ -9,6 +9,7 @@
 #import "JKYAnimationViewController.h"
 #import "JKYBaseAnimationViewController.h"
 #import "JKYKeyframeAnimationViewController.h"
+#import "JKYGroupAnimationViewController.h"
 
 
 #define kCellVCName @"vcName"
@@ -111,6 +112,10 @@
              @{
                  kCellVCName : NSStringFromClass([JKYKeyframeAnimationViewController class]),
                  kCellTitle : @"关键帧动画",
+                 },
+             @{
+                 kCellVCName : NSStringFromClass([JKYGroupAnimationViewController class]),
+                 kCellTitle : @"组动画",
                  },
              ];
 }
