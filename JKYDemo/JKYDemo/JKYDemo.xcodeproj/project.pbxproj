@@ -15,6 +15,7 @@
 		B04A5D9E1EC434A800610550 /* JKYBaseAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B04A5D9D1EC434A800610550 /* JKYBaseAnimationViewController.m */; };
 		B04A5DA11EC5A5F700610550 /* JKYKeyframeAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B04A5DA01EC5A5F700610550 /* JKYKeyframeAnimationViewController.m */; };
 		B04A5DA41EC9ADF300610550 /* JKYGroupAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B04A5DA31EC9ADF300610550 /* JKYGroupAnimationViewController.m */; };
+		B04A5DA71ECB208600610550 /* JKYTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B04A5DA61ECB208600610550 /* JKYTransitionViewController.m */; };
 		B04DD1501E6FF996009CF23E /* JKYSlideTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = B04DD14F1E6FF996009CF23E /* JKYSlideTabBarView.m */; };
 		B04DD15B1E6FFCBB009CF23E /* JKYContactListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B04DD15A1E6FFCBB009CF23E /* JKYContactListViewController.m */; };
 		B04DD15E1E70049B009CF23E /* JKYGroupDataCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = B04DD15D1E70049B009CF23E /* JKYGroupDataCollection.m */; };
@@ -77,6 +78,8 @@
 		B04A5DA01EC5A5F700610550 /* JKYKeyframeAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKYKeyframeAnimationViewController.m; sourceTree = "<group>"; };
 		B04A5DA21EC9ADF300610550 /* JKYGroupAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKYGroupAnimationViewController.h; sourceTree = "<group>"; };
 		B04A5DA31EC9ADF300610550 /* JKYGroupAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKYGroupAnimationViewController.m; sourceTree = "<group>"; };
+		B04A5DA51ECB208600610550 /* JKYTransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKYTransitionViewController.h; sourceTree = "<group>"; };
+		B04A5DA61ECB208600610550 /* JKYTransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKYTransitionViewController.m; sourceTree = "<group>"; };
 		B04DD14E1E6FF996009CF23E /* JKYSlideTabBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKYSlideTabBarView.h; sourceTree = "<group>"; };
 		B04DD14F1E6FF996009CF23E /* JKYSlideTabBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKYSlideTabBarView.m; sourceTree = "<group>"; };
 		B04DD1591E6FFCBB009CF23E /* JKYContactListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKYContactListViewController.h; sourceTree = "<group>"; };
@@ -230,6 +233,8 @@
 				B04A5DA01EC5A5F700610550 /* JKYKeyframeAnimationViewController.m */,
 				B04A5DA21EC9ADF300610550 /* JKYGroupAnimationViewController.h */,
 				B04A5DA31EC9ADF300610550 /* JKYGroupAnimationViewController.m */,
+				B04A5DA51ECB208600610550 /* JKYTransitionViewController.h */,
+				B04A5DA61ECB208600610550 /* JKYTransitionViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -798,6 +803,7 @@
 				B0683AA71E9639640014FF0B /* JKYCustomUIViewController.m in Sources */,
 				B04DD16B1E702791009CF23E /* JKYSpellingCenter.m in Sources */,
 				B04DD1611E70230C009CF23E /* JKYGroupUserInfo.m in Sources */,
+				B04A5DA71ECB208600610550 /* JKYTransitionViewController.m in Sources */,
 				B04A5D971EC2B8A000610550 /* JKYAnimationViewController.m in Sources */,
 				B08F8E5C1E6D3BCB00095FD6 /* JKYHomeViewController.m in Sources */,
 			);

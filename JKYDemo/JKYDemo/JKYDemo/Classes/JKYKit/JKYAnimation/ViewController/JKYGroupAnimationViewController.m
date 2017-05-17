@@ -20,7 +20,7 @@
 @end
 
 @implementation JKYGroupAnimationViewController
-// Life Cycle
+#pragma mark - Life cycle
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
