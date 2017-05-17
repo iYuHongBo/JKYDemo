@@ -11,6 +11,7 @@
 #import "JKYKeyframeAnimationViewController.h"
 #import "JKYGroupAnimationViewController.h"
 #import "JKYTransitionViewController.h"
+#import "JKYSpringViewController.h"
 
 
 #define kCellVCName @"vcName"
@@ -123,7 +124,7 @@
                  kCellTitle : @"过度动画",
                  },
              @{
-                 kCellVCName : NSStringFromClass([JKYGroupAnimationViewController class]),
+                 kCellVCName : NSStringFromClass([JKYSpringViewController class]),
                  kCellTitle : @"弹簧动画",
                  },
              @{
