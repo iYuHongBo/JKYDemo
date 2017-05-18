@@ -12,6 +12,7 @@
 #import "JKYGroupAnimationViewController.h"
 #import "JKYTransitionViewController.h"
 #import "JKYSpringViewController.h"
+#import "JKYLoginAnimationViewController.h"
 
 
 #define kCellVCName @"vcName"
@@ -128,8 +129,8 @@
                  kCellTitle : @"弹簧动画",
                  },
              @{
-                 kCellVCName : NSStringFromClass([JKYGroupAnimationViewController class]),
-                 kCellTitle : @"案例动画",
+                 kCellVCName : NSStringFromClass([JKYLoginAnimationViewController class]),
+                 kCellTitle : @"登录动画",
                  },
              ];
 }
