@@ -10,6 +10,7 @@ target 'JKYDemo' do
   #pod ‘JKYKit’, :path => ‘../JKYKit/’
 
   pod 'Masonry',        '~> 1.0.2'
+  pod 'pop',            '~> 1.0'
 
   target 'JKYDemoTests' do
     inherit! :search_paths
