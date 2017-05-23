@@ -41,6 +41,43 @@
 		B08F8E521E6D102000095FD6 /* JKYTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B08F8E511E6D102000095FD6 /* JKYTabBarViewController.m */; };
 		B08F8E5C1E6D3BCB00095FD6 /* JKYHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B08F8E5B1E6D3BCB00095FD6 /* JKYHomeViewController.m */; };
 		B08F8E631E6D585800095FD6 /* JKYPageSlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B08F8E621E6D585800095FD6 /* JKYPageSlideViewController.m */; };
+		B0E9DFE01ED28D820092EA68 /* DCPathButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E9DFDB1ED28D820092EA68 /* DCPathButton.m */; };
+		B0E9DFE11ED28D820092EA68 /* DCPathCenterButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E9DFDD1ED28D820092EA68 /* DCPathCenterButton.m */; };
+		B0E9DFE21ED28D820092EA68 /* DCPathItemButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E9DFDF1ED28D820092EA68 /* DCPathItemButton.m */; };
+		B0E9DFFD1ED28E750092EA68 /* chooser-button-input-highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E9DFE61ED28E750092EA68 /* chooser-button-input-highlighted@2x.png */; };
+		B0E9DFFE1ED28E750092EA68 /* chooser-button-input@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E9DFE71ED28E750092EA68 /* chooser-button-input@2x.png */; };
+		B0E9DFFF1ED28E750092EA68 /* chooser-button-tab-highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E9DFE81ED28E750092EA68 /* chooser-button-tab-highlighted@2x.png */; };
+		B0E9E0001ED28E750092EA68 /* chooser-button-tab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E9DFE91ED28E750092EA68 /* chooser-button-tab@2x.png */; };
+		B0E9E0011ED28E750092EA68 /* chooser-moment-button-highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E9DFEA1ED28E750092EA68 /* chooser-moment-button-highlighted@2x.png */; };
+		B0E9E0021ED28E750092EA68 /* chooser-moment-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E9DFEB1ED28E750092EA68 /* chooser-moment-button@2x.png */; };
+		B0E9E0031ED28E750092EA68 /* chooser-moment-icon-camera-highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E9DFEC1ED28E750092EA68 /* chooser-moment-icon-camera-highlighted@2x.png */; };
+		B0E9E0041ED28E750092EA68 /* chooser-moment-icon-camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E9DFED1ED28E750092EA68 /* chooser-moment-icon-camera@2x.png */; };
+		B0E9E0051ED28E750092EA68 /* chooser-moment-icon-music-highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E9DFEE1ED28E750092EA68 /* chooser-moment-icon-music-highlighted@2x.png */; };
+		B0E9E0061ED28E750092EA68 /* chooser-moment-icon-music@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E9DFEF1ED28E750092EA68 /* chooser-moment-icon-music@2x.png */; };
+		B0E9E0071ED28E750092EA68 /* chooser-moment-icon-place-highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E9DFF01ED28E750092EA68 /* chooser-moment-icon-place-highlighted@2x.png */; };
+		B0E9E0081ED28E750092EA68 /* chooser-moment-icon-place@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E9DFF11ED28E750092EA68 /* chooser-moment-icon-place@2x.png */; };
+		B0E9E0091ED28E750092EA68 /* chooser-moment-icon-sleep-highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E9DFF21ED28E750092EA68 /* chooser-moment-icon-sleep-highlighted@2x.png */; };
+		B0E9E00A1ED28E750092EA68 /* chooser-moment-icon-sleep@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E9DFF31ED28E750092EA68 /* chooser-moment-icon-sleep@2x.png */; };
+		B0E9E00B1ED28E750092EA68 /* chooser-moment-icon-thought-highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E9DFF41ED28E750092EA68 /* chooser-moment-icon-thought-highlighted@2x.png */; };
+		B0E9E00C1ED28E750092EA68 /* chooser-moment-icon-thought@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E9DFF51ED28E750092EA68 /* chooser-moment-icon-thought@2x.png */; };
+		B0E9E00D1ED28E750092EA68 /* Like-Blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E9DFF61ED28E750092EA68 /* Like-Blue@2x.png */; };
+		B0E9E00E1ED28E750092EA68 /* Like@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E9DFF71ED28E750092EA68 /* Like@2x.png */; };
+		B0E9E00F1ED28E750092EA68 /* Sparkle.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E9DFF81ED28E750092EA68 /* Sparkle.png */; };
+		B0E9E0101ED28E750092EA68 /* bloom.caf in Resources */ = {isa = PBXBuildFile; fileRef = B0E9DFFA1ED28E750092EA68 /* bloom.caf */; };
+		B0E9E0111ED28E750092EA68 /* fold.caf in Resources */ = {isa = PBXBuildFile; fileRef = B0E9DFFB1ED28E750092EA68 /* fold.caf */; };
+		B0E9E0121ED28E750092EA68 /* selected.caf in Resources */ = {isa = PBXBuildFile; fileRef = B0E9DFFC1ED28E750092EA68 /* selected.caf */; };
+		B0E9E0151ED28F940092EA68 /* JKYApplicationAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E9E0141ED28F940092EA68 /* JKYApplicationAnimationViewController.m */; };
+		B0E9E0191ED293A10092EA68 /* DWBubbleMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E9E0181ED293A10092EA68 /* DWBubbleMenuButton.m */; };
+		B0E9E01F1ED293B20092EA68 /* MCFireworksButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E9E01C1ED293B20092EA68 /* MCFireworksButton.m */; };
+		B0E9E0201ED293B20092EA68 /* MCFireworksView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E9E01E1ED293B20092EA68 /* MCFireworksView.m */; };
+		B0E9E0241ED2D08E0092EA68 /* JKYShineParams.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E9E0231ED2D08E0092EA68 /* JKYShineParams.m */; };
+		B0E9E0271ED2D5070092EA68 /* JKYShineButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E9E0261ED2D5070092EA68 /* JKYShineButton.m */; };
+		B0E9E02A1ED2D5F40092EA68 /* JKYShineImage.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E9E0291ED2D5F40092EA68 /* JKYShineImage.m */; };
+		B0E9E02D1ED2D9710092EA68 /* JKYShineBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E9E02C1ED2D9710092EA68 /* JKYShineBundle.m */; };
+		B0E9E02F1ED2DA880092EA68 /* JKYShineButton.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B0E9E02E1ED2DA880092EA68 /* JKYShineButton.bundle */; };
+		B0E9E0321ED2DF910092EA68 /* JKYShineLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E9E0311ED2DF910092EA68 /* JKYShineLayer.m */; };
+		B0E9E0351ED2E7660092EA68 /* JKYShineAngleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E9E0341ED2E7660092EA68 /* JKYShineAngleLayer.m */; };
+		B0E9E0381ED308E10092EA68 /* JKYShineClickLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E9E0371ED308E10092EA68 /* JKYShineClickLayer.m */; };
 		B5C3CD94A0B532573F4AB22F /* libPods-JKYDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D83AA2CDF7C94DFF2EA8330 /* libPods-JKYDemoTests.a */; };
 /* End PBXBuildFile section */
 
@@ -137,6 +174,57 @@
 		B08F8E5B1E6D3BCB00095FD6 /* JKYHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKYHomeViewController.m; sourceTree = "<group>"; };
 		B08F8E611E6D585800095FD6 /* JKYPageSlideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKYPageSlideViewController.h; sourceTree = "<group>"; };
 		B08F8E621E6D585800095FD6 /* JKYPageSlideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKYPageSlideViewController.m; sourceTree = "<group>"; };
+		B0E9DFDA1ED28D820092EA68 /* DCPathButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCPathButton.h; sourceTree = "<group>"; };
+		B0E9DFDB1ED28D820092EA68 /* DCPathButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCPathButton.m; sourceTree = "<group>"; };
+		B0E9DFDC1ED28D820092EA68 /* DCPathCenterButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCPathCenterButton.h; sourceTree = "<group>"; };
+		B0E9DFDD1ED28D820092EA68 /* DCPathCenterButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCPathCenterButton.m; sourceTree = "<group>"; };
+		B0E9DFDE1ED28D820092EA68 /* DCPathItemButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCPathItemButton.h; sourceTree = "<group>"; };
+		B0E9DFDF1ED28D820092EA68 /* DCPathItemButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCPathItemButton.m; sourceTree = "<group>"; };
+		B0E9DFE61ED28E750092EA68 /* chooser-button-input-highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chooser-button-input-highlighted@2x.png"; sourceTree = "<group>"; };
+		B0E9DFE71ED28E750092EA68 /* chooser-button-input@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chooser-button-input@2x.png"; sourceTree = "<group>"; };
+		B0E9DFE81ED28E750092EA68 /* chooser-button-tab-highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chooser-button-tab-highlighted@2x.png"; sourceTree = "<group>"; };
+		B0E9DFE91ED28E750092EA68 /* chooser-button-tab@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chooser-button-tab@2x.png"; sourceTree = "<group>"; };
+		B0E9DFEA1ED28E750092EA68 /* chooser-moment-button-highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chooser-moment-button-highlighted@2x.png"; sourceTree = "<group>"; };
+		B0E9DFEB1ED28E750092EA68 /* chooser-moment-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chooser-moment-button@2x.png"; sourceTree = "<group>"; };
+		B0E9DFEC1ED28E750092EA68 /* chooser-moment-icon-camera-highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chooser-moment-icon-camera-highlighted@2x.png"; sourceTree = "<group>"; };
+		B0E9DFED1ED28E750092EA68 /* chooser-moment-icon-camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chooser-moment-icon-camera@2x.png"; sourceTree = "<group>"; };
+		B0E9DFEE1ED28E750092EA68 /* chooser-moment-icon-music-highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chooser-moment-icon-music-highlighted@2x.png"; sourceTree = "<group>"; };
+		B0E9DFEF1ED28E750092EA68 /* chooser-moment-icon-music@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chooser-moment-icon-music@2x.png"; sourceTree = "<group>"; };
+		B0E9DFF01ED28E750092EA68 /* chooser-moment-icon-place-highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chooser-moment-icon-place-highlighted@2x.png"; sourceTree = "<group>"; };
+		B0E9DFF11ED28E750092EA68 /* chooser-moment-icon-place@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chooser-moment-icon-place@2x.png"; sourceTree = "<group>"; };
+		B0E9DFF21ED28E750092EA68 /* chooser-moment-icon-sleep-highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chooser-moment-icon-sleep-highlighted@2x.png"; sourceTree = "<group>"; };
+		B0E9DFF31ED28E750092EA68 /* chooser-moment-icon-sleep@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chooser-moment-icon-sleep@2x.png"; sourceTree = "<group>"; };
+		B0E9DFF41ED28E750092EA68 /* chooser-moment-icon-thought-highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chooser-moment-icon-thought-highlighted@2x.png"; sourceTree = "<group>"; };
+		B0E9DFF51ED28E750092EA68 /* chooser-moment-icon-thought@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chooser-moment-icon-thought@2x.png"; sourceTree = "<group>"; };
+		B0E9DFF61ED28E750092EA68 /* Like-Blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Like-Blue@2x.png"; sourceTree = "<group>"; };
+		B0E9DFF71ED28E750092EA68 /* Like@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Like@2x.png"; sourceTree = "<group>"; };
+		B0E9DFF81ED28E750092EA68 /* Sparkle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sparkle.png; sourceTree = "<group>"; };
+		B0E9DFFA1ED28E750092EA68 /* bloom.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = bloom.caf; sourceTree = "<group>"; };
+		B0E9DFFB1ED28E750092EA68 /* fold.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = fold.caf; sourceTree = "<group>"; };
+		B0E9DFFC1ED28E750092EA68 /* selected.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = selected.caf; sourceTree = "<group>"; };
+		B0E9E0131ED28F940092EA68 /* JKYApplicationAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKYApplicationAnimationViewController.h; sourceTree = "<group>"; };
+		B0E9E0141ED28F940092EA68 /* JKYApplicationAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKYApplicationAnimationViewController.m; sourceTree = "<group>"; };
+		B0E9E0171ED293A10092EA68 /* DWBubbleMenuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWBubbleMenuButton.h; sourceTree = "<group>"; };
+		B0E9E0181ED293A10092EA68 /* DWBubbleMenuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWBubbleMenuButton.m; sourceTree = "<group>"; };
+		B0E9E01B1ED293B20092EA68 /* MCFireworksButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCFireworksButton.h; sourceTree = "<group>"; };
+		B0E9E01C1ED293B20092EA68 /* MCFireworksButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCFireworksButton.m; sourceTree = "<group>"; };
+		B0E9E01D1ED293B20092EA68 /* MCFireworksView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCFireworksView.h; sourceTree = "<group>"; };
+		B0E9E01E1ED293B20092EA68 /* MCFireworksView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCFireworksView.m; sourceTree = "<group>"; };
+		B0E9E0221ED2D08E0092EA68 /* JKYShineParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKYShineParams.h; sourceTree = "<group>"; };
+		B0E9E0231ED2D08E0092EA68 /* JKYShineParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKYShineParams.m; sourceTree = "<group>"; };
+		B0E9E0251ED2D5070092EA68 /* JKYShineButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKYShineButton.h; sourceTree = "<group>"; };
+		B0E9E0261ED2D5070092EA68 /* JKYShineButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKYShineButton.m; sourceTree = "<group>"; };
+		B0E9E0281ED2D5F40092EA68 /* JKYShineImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKYShineImage.h; sourceTree = "<group>"; };
+		B0E9E0291ED2D5F40092EA68 /* JKYShineImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKYShineImage.m; sourceTree = "<group>"; };
+		B0E9E02B1ED2D9710092EA68 /* JKYShineBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKYShineBundle.h; sourceTree = "<group>"; };
+		B0E9E02C1ED2D9710092EA68 /* JKYShineBundle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKYShineBundle.m; sourceTree = "<group>"; };
+		B0E9E02E1ED2DA880092EA68 /* JKYShineButton.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = JKYShineButton.bundle; sourceTree = "<group>"; };
+		B0E9E0301ED2DF910092EA68 /* JKYShineLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKYShineLayer.h; sourceTree = "<group>"; };
+		B0E9E0311ED2DF910092EA68 /* JKYShineLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKYShineLayer.m; sourceTree = "<group>"; };
+		B0E9E0331ED2E7660092EA68 /* JKYShineAngleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKYShineAngleLayer.h; sourceTree = "<group>"; };
+		B0E9E0341ED2E7660092EA68 /* JKYShineAngleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKYShineAngleLayer.m; sourceTree = "<group>"; };
+		B0E9E0361ED308E10092EA68 /* JKYShineClickLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKYShineClickLayer.h; sourceTree = "<group>"; };
+		B0E9E0371ED308E10092EA68 /* JKYShineClickLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKYShineClickLayer.m; sourceTree = "<group>"; };
 		C57800357566CDC4B9F218CE /* libPods-JKYDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JKYDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E58F73A54C1407D058871D64 /* Pods-JKYDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKYDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JKYDemoTests/Pods-JKYDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -212,6 +300,10 @@
 		B04A5D981EC4348800610550 /* JKYAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				B0E9E0211ED2D04E0092EA68 /* JKYShineButton */,
+				B0E9DFD91ED28D820092EA68 /* DCPathButton */,
+				B0E9E0161ED293A10092EA68 /* DWBubbleMenuButton */,
+				B0E9E01A1ED293B20092EA68 /* MCFireworksButton */,
 				B04A5D991EC4348800610550 /* Model */,
 				B04A5D9A1EC4348800610550 /* View */,
 				B04A5D9B1EC4348800610550 /* ViewController */,
@@ -250,6 +342,8 @@
 				B04A5DA91ECC4DBE00610550 /* JKYSpringViewController.m */,
 				B04A5DAB1ECD487700610550 /* JKYLoginAnimationViewController.h */,
 				B04A5DAC1ECD487700610550 /* JKYLoginAnimationViewController.m */,
+				B0E9E0131ED28F940092EA68 /* JKYApplicationAnimationViewController.h */,
+				B0E9E0141ED28F940092EA68 /* JKYApplicationAnimationViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -405,6 +499,8 @@
 		B08F8E161E6D094300095FD6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B0E9DFE51ED28E750092EA68 /* image */,
+				B0E9DFF91ED28E750092EA68 /* Sounds */,
 				B08F8E171E6D094300095FD6 /* main.m */,
 				B0683A9E1E96310C0014FF0B /* JKYPrefixHeader.pch */,
 			);
@@ -504,6 +600,97 @@
 				B04A5D961EC2B8A000610550 /* JKYAnimationViewController.m */,
 			);
 			path = CellDetailViewController;
+			sourceTree = "<group>";
+		};
+		B0E9DFD91ED28D820092EA68 /* DCPathButton */ = {
+			isa = PBXGroup;
+			children = (
+				B0E9DFDA1ED28D820092EA68 /* DCPathButton.h */,
+				B0E9DFDB1ED28D820092EA68 /* DCPathButton.m */,
+				B0E9DFDC1ED28D820092EA68 /* DCPathCenterButton.h */,
+				B0E9DFDD1ED28D820092EA68 /* DCPathCenterButton.m */,
+				B0E9DFDE1ED28D820092EA68 /* DCPathItemButton.h */,
+				B0E9DFDF1ED28D820092EA68 /* DCPathItemButton.m */,
+			);
+			path = DCPathButton;
+			sourceTree = "<group>";
+		};
+		B0E9DFE51ED28E750092EA68 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				B0E9DFE61ED28E750092EA68 /* chooser-button-input-highlighted@2x.png */,
+				B0E9DFE71ED28E750092EA68 /* chooser-button-input@2x.png */,
+				B0E9DFE81ED28E750092EA68 /* chooser-button-tab-highlighted@2x.png */,
+				B0E9DFE91ED28E750092EA68 /* chooser-button-tab@2x.png */,
+				B0E9DFEA1ED28E750092EA68 /* chooser-moment-button-highlighted@2x.png */,
+				B0E9DFEB1ED28E750092EA68 /* chooser-moment-button@2x.png */,
+				B0E9DFEC1ED28E750092EA68 /* chooser-moment-icon-camera-highlighted@2x.png */,
+				B0E9DFED1ED28E750092EA68 /* chooser-moment-icon-camera@2x.png */,
+				B0E9DFEE1ED28E750092EA68 /* chooser-moment-icon-music-highlighted@2x.png */,
+				B0E9DFEF1ED28E750092EA68 /* chooser-moment-icon-music@2x.png */,
+				B0E9DFF01ED28E750092EA68 /* chooser-moment-icon-place-highlighted@2x.png */,
+				B0E9DFF11ED28E750092EA68 /* chooser-moment-icon-place@2x.png */,
+				B0E9DFF21ED28E750092EA68 /* chooser-moment-icon-sleep-highlighted@2x.png */,
+				B0E9DFF31ED28E750092EA68 /* chooser-moment-icon-sleep@2x.png */,
+				B0E9DFF41ED28E750092EA68 /* chooser-moment-icon-thought-highlighted@2x.png */,
+				B0E9DFF51ED28E750092EA68 /* chooser-moment-icon-thought@2x.png */,
+				B0E9DFF61ED28E750092EA68 /* Like-Blue@2x.png */,
+				B0E9DFF71ED28E750092EA68 /* Like@2x.png */,
+				B0E9DFF81ED28E750092EA68 /* Sparkle.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		B0E9DFF91ED28E750092EA68 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				B0E9DFFA1ED28E750092EA68 /* bloom.caf */,
+				B0E9DFFB1ED28E750092EA68 /* fold.caf */,
+				B0E9DFFC1ED28E750092EA68 /* selected.caf */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		B0E9E0161ED293A10092EA68 /* DWBubbleMenuButton */ = {
+			isa = PBXGroup;
+			children = (
+				B0E9E0171ED293A10092EA68 /* DWBubbleMenuButton.h */,
+				B0E9E0181ED293A10092EA68 /* DWBubbleMenuButton.m */,
+			);
+			path = DWBubbleMenuButton;
+			sourceTree = "<group>";
+		};
+		B0E9E01A1ED293B20092EA68 /* MCFireworksButton */ = {
+			isa = PBXGroup;
+			children = (
+				B0E9E01B1ED293B20092EA68 /* MCFireworksButton.h */,
+				B0E9E01C1ED293B20092EA68 /* MCFireworksButton.m */,
+				B0E9E01D1ED293B20092EA68 /* MCFireworksView.h */,
+				B0E9E01E1ED293B20092EA68 /* MCFireworksView.m */,
+			);
+			path = MCFireworksButton;
+			sourceTree = "<group>";
+		};
+		B0E9E0211ED2D04E0092EA68 /* JKYShineButton */ = {
+			isa = PBXGroup;
+			children = (
+				B0E9E02E1ED2DA880092EA68 /* JKYShineButton.bundle */,
+				B0E9E02B1ED2D9710092EA68 /* JKYShineBundle.h */,
+				B0E9E02C1ED2D9710092EA68 /* JKYShineBundle.m */,
+				B0E9E0281ED2D5F40092EA68 /* JKYShineImage.h */,
+				B0E9E0291ED2D5F40092EA68 /* JKYShineImage.m */,
+				B0E9E0221ED2D08E0092EA68 /* JKYShineParams.h */,
+				B0E9E0231ED2D08E0092EA68 /* JKYShineParams.m */,
+				B0E9E0251ED2D5070092EA68 /* JKYShineButton.h */,
+				B0E9E0261ED2D5070092EA68 /* JKYShineButton.m */,
+				B0E9E0301ED2DF910092EA68 /* JKYShineLayer.h */,
+				B0E9E0311ED2DF910092EA68 /* JKYShineLayer.m */,
+				B0E9E0331ED2E7660092EA68 /* JKYShineAngleLayer.h */,
+				B0E9E0341ED2E7660092EA68 /* JKYShineAngleLayer.m */,
+				B0E9E0361ED308E10092EA68 /* JKYShineClickLayer.h */,
+				B0E9E0371ED308E10092EA68 /* JKYShineClickLayer.m */,
+			);
+			path = JKYShineButton;
 			sourceTree = "<group>";
 		};
 		C0A1F4E842B69DA032D9DFA9 /* Frameworks */ = {
@@ -632,7 +819,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0E9E0081ED28E750092EA68 /* chooser-moment-icon-place@2x.png in Resources */,
+				B0E9E0031ED28E750092EA68 /* chooser-moment-icon-camera-highlighted@2x.png in Resources */,
+				B0E9E00A1ED28E750092EA68 /* chooser-moment-icon-sleep@2x.png in Resources */,
+				B0E9E00C1ED28E750092EA68 /* chooser-moment-icon-thought@2x.png in Resources */,
+				B0E9E0101ED28E750092EA68 /* bloom.caf in Resources */,
+				B0E9E0071ED28E750092EA68 /* chooser-moment-icon-place-highlighted@2x.png in Resources */,
+				B0E9E00E1ED28E750092EA68 /* Like@2x.png in Resources */,
+				B0E9DFFF1ED28E750092EA68 /* chooser-button-tab-highlighted@2x.png in Resources */,
 				B08F8E261E6D094300095FD6 /* LaunchScreen.storyboard in Resources */,
+				B0E9E00B1ED28E750092EA68 /* chooser-moment-icon-thought-highlighted@2x.png in Resources */,
+				B0E9E0051ED28E750092EA68 /* chooser-moment-icon-music-highlighted@2x.png in Resources */,
+				B0E9E00D1ED28E750092EA68 /* Like-Blue@2x.png in Resources */,
+				B0E9E0021ED28E750092EA68 /* chooser-moment-button@2x.png in Resources */,
+				B0E9E0121ED28E750092EA68 /* selected.caf in Resources */,
+				B0E9E00F1ED28E750092EA68 /* Sparkle.png in Resources */,
+				B0E9E0111ED28E750092EA68 /* fold.caf in Resources */,
+				B0E9E0041ED28E750092EA68 /* chooser-moment-icon-camera@2x.png in Resources */,
+				B0E9E0011ED28E750092EA68 /* chooser-moment-button-highlighted@2x.png in Resources */,
+				B0E9E02F1ED2DA880092EA68 /* JKYShineButton.bundle in Resources */,
+				B0E9DFFE1ED28E750092EA68 /* chooser-button-input@2x.png in Resources */,
+				B0E9DFFD1ED28E750092EA68 /* chooser-button-input-highlighted@2x.png in Resources */,
+				B0E9E0001ED28E750092EA68 /* chooser-button-tab@2x.png in Resources */,
+				B0E9E0091ED28E750092EA68 /* chooser-moment-icon-sleep-highlighted@2x.png in Resources */,
+				B0E9E0061ED28E750092EA68 /* chooser-moment-icon-music@2x.png in Resources */,
 				B08F8E231E6D094300095FD6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -799,15 +1009,25 @@
 				B0683AA41E9636D10014FF0B /* JKYImageView.m in Sources */,
 				B04A5DA11EC5A5F700610550 /* JKYKeyframeAnimationViewController.m in Sources */,
 				B08F8E4E1E6D0E1600095FD6 /* AppDelegate.m in Sources */,
+				B0E9E0151ED28F940092EA68 /* JKYApplicationAnimationViewController.m in Sources */,
+				B0E9E0321ED2DF910092EA68 /* JKYShineLayer.m in Sources */,
 				B04A5D9E1EC434A800610550 /* JKYBaseAnimationViewController.m in Sources */,
 				B08F8E181E6D094300095FD6 /* main.m in Sources */,
+				B0E9E0381ED308E10092EA68 /* JKYShineClickLayer.m in Sources */,
 				B04DD15E1E70049B009CF23E /* JKYGroupDataCollection.m in Sources */,
 				B05509C41E70FE5500FB9DA8 /* JKYGroupContacts.m in Sources */,
+				B0E9E0241ED2D08E0092EA68 /* JKYShineParams.m in Sources */,
+				B0E9DFE01ED28D820092EA68 /* DCPathButton.m in Sources */,
+				B0E9E0351ED2E7660092EA68 /* JKYShineAngleLayer.m in Sources */,
 				B0683AA11E9634F00014FF0B /* JKYProgressView.m in Sources */,
+				B0E9E0201ED293B20092EA68 /* MCFireworksView.m in Sources */,
+				B0E9E02A1ED2D5F40092EA68 /* JKYShineImage.m in Sources */,
+				B0E9E01F1ED293B20092EA68 /* MCFireworksButton.m in Sources */,
 				B01B05A41EB8825300B69364 /* JKYDatePickerDate.m in Sources */,
 				B04DD15B1E6FFCBB009CF23E /* JKYContactListViewController.m in Sources */,
 				B04DD1501E6FF996009CF23E /* JKYSlideTabBarView.m in Sources */,
 				B08F8E631E6D585800095FD6 /* JKYPageSlideViewController.m in Sources */,
+				B0E9E02D1ED2D9710092EA68 /* JKYShineBundle.m in Sources */,
 				B04A5DB01ECD49CF00610550 /* JKYLoginAnimationView.m in Sources */,
 				B067083E1E978B260098C6C8 /* JKYImagePickerManager.m in Sources */,
 				B01B05A71EB885D600B69364 /* JKYDatePickerView.m in Sources */,
@@ -817,13 +1037,17 @@
 				B06504B51EA5E45A005A6A11 /* JKYDatePickerViewController.m in Sources */,
 				B04A5DA41EC9ADF300610550 /* JKYGroupAnimationViewController.m in Sources */,
 				B0683AA71E9639640014FF0B /* JKYCustomUIViewController.m in Sources */,
+				B0E9E0271ED2D5070092EA68 /* JKYShineButton.m in Sources */,
+				B0E9DFE11ED28D820092EA68 /* DCPathCenterButton.m in Sources */,
 				B04DD16B1E702791009CF23E /* JKYSpellingCenter.m in Sources */,
+				B0E9E0191ED293A10092EA68 /* DWBubbleMenuButton.m in Sources */,
 				B04DD1611E70230C009CF23E /* JKYGroupUserInfo.m in Sources */,
 				B04A5DA71ECB208600610550 /* JKYTransitionViewController.m in Sources */,
 				B04A5D971EC2B8A000610550 /* JKYAnimationViewController.m in Sources */,
 				B04A5DAA1ECC4DBE00610550 /* JKYSpringViewController.m in Sources */,
 				B04A5DAD1ECD487700610550 /* JKYLoginAnimationViewController.m in Sources */,
 				B08F8E5C1E6D3BCB00095FD6 /* JKYHomeViewController.m in Sources */,
+				B0E9DFE21ED28D820092EA68 /* DCPathItemButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
