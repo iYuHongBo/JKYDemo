@@ -7,7 +7,7 @@
 //
 
 #import "JKYTabBarViewController.h"
-
+#import "JKYTabBar.h"
 
 
 
@@ -27,6 +27,9 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     
+    JKYTabBar *tabbar = [JKYTabBar new];
+    [self setValue:tabbar forKey:@"tabBar"];
+    
     NSMutableArray *array = [[NSMutableArray alloc] init];
     [[self tabbars] enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         NSDictionary *itemDict = (NSDictionary *)obj;
@@ -36,11 +39,10 @@
         NSString *imageSelected = itemDict[TabbarSelectedImage];
         Class class = NSClassFromString(vcName);
         UIViewController *vc = [[class alloc] init];
-        vc.hidesBottomBarWhenPushed = YES;
+        vc.tabBarItem = [[UITabBarItem alloc] initWithTitle:title image:[[UIImage imageNamed:imageName] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] selectedImage:[[UIImage imageNamed:imageSelected] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]];
+        vc.tabBarItem.tag = idx;
+        vc.hidesBottomBarWhenPushed = NO;
         UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
-        nav.tabBarItem = [[UITabBarItem alloc] initWithTitle:title image:[[UIImage imageNamed:imageName] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] selectedImage:[[UIImage imageNamed:imageSelected] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]];
-        nav.tabBarItem.tag = idx;
-        
         [array addObject:nav];
     }];
     
@@ -53,14 +55,26 @@
                       @{
                           TabbarVC           : @"JKYHomeViewController",
                           TabbarTitle        : @"首页",
-//                          TabbarImage        : @"ic_qiyu_normal",
-//                          TabbarSelectedImage: @"ic_qiyu_pressed",
+                          TabbarImage        : @"icon_home_normal",
+                          TabbarSelectedImage: @"icon_home_pressed",
                           },
                       @{
                           TabbarVC           : @"JKYHomeViewController",
                           TabbarTitle        : @"其他",
-//                          TabbarImage        : @"ic_setting_normal",
-//                          TabbarSelectedImage: @"ic_setting_pressed",
+                          TabbarImage        : @"icon_kefuMenitor_normal",
+                          TabbarSelectedImage: @"icon_kefuMenitor_pressed",
+                          },
+                      @{
+                          TabbarVC           : @"JKYHomeViewController",
+                          TabbarTitle        : @"其他",
+                          TabbarImage        : @"icon_sessionMonitor_normal",
+                          TabbarSelectedImage: @"icon_sessionMonitor_pressed",
+                          },
+                      @{
+                          TabbarVC           : @"JKYHomeViewController",
+                          TabbarTitle        : @"其他",
+                          TabbarImage        : @"icon_historyData_normal",
+                          TabbarSelectedImage: @"icon_historyData_pressed",
                           },
                       ];
     return item;

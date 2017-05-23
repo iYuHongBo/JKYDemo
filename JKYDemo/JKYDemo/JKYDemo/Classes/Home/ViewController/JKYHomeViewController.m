@@ -33,7 +33,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.title = @"JKYDemo";
+    self.navigationItem.title = @"JKYDemo";
     self.view.backgroundColor = [UIColor whiteColor];
     
     [self initUI];
