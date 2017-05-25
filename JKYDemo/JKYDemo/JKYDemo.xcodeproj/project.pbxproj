@@ -41,6 +41,8 @@
 		B08F8E521E6D102000095FD6 /* JKYTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B08F8E511E6D102000095FD6 /* JKYTabBarViewController.m */; };
 		B08F8E5C1E6D3BCB00095FD6 /* JKYHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B08F8E5B1E6D3BCB00095FD6 /* JKYHomeViewController.m */; };
 		B08F8E631E6D585800095FD6 /* JKYPageSlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B08F8E621E6D585800095FD6 /* JKYPageSlideViewController.m */; };
+		B0BBC0E91ED6B5A7002F89DE /* JKYTabBarControllerAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BBC0E81ED6B5A7002F89DE /* JKYTabBarControllerAnimation.m */; };
+		B0BBC0EC1ED6B6E6002F89DE /* JKYTabBarTransitionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BBC0EB1ED6B6E6002F89DE /* JKYTabBarTransitionDelegate.m */; };
 		B0E9DFE01ED28D820092EA68 /* DCPathButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E9DFDB1ED28D820092EA68 /* DCPathButton.m */; };
 		B0E9DFE11ED28D820092EA68 /* DCPathCenterButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E9DFDD1ED28D820092EA68 /* DCPathCenterButton.m */; };
 		B0E9DFE21ED28D820092EA68 /* DCPathItemButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E9DFDF1ED28D820092EA68 /* DCPathItemButton.m */; };
@@ -202,6 +204,10 @@
 		B08F8E5B1E6D3BCB00095FD6 /* JKYHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKYHomeViewController.m; sourceTree = "<group>"; };
 		B08F8E611E6D585800095FD6 /* JKYPageSlideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKYPageSlideViewController.h; sourceTree = "<group>"; };
 		B08F8E621E6D585800095FD6 /* JKYPageSlideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKYPageSlideViewController.m; sourceTree = "<group>"; };
+		B0BBC0E71ED6B5A7002F89DE /* JKYTabBarControllerAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKYTabBarControllerAnimation.h; sourceTree = "<group>"; };
+		B0BBC0E81ED6B5A7002F89DE /* JKYTabBarControllerAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKYTabBarControllerAnimation.m; sourceTree = "<group>"; };
+		B0BBC0EA1ED6B6E6002F89DE /* JKYTabBarTransitionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKYTabBarTransitionDelegate.h; sourceTree = "<group>"; };
+		B0BBC0EB1ED6B6E6002F89DE /* JKYTabBarTransitionDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKYTabBarTransitionDelegate.m; sourceTree = "<group>"; };
 		B0E9DFDA1ED28D820092EA68 /* DCPathButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCPathButton.h; sourceTree = "<group>"; };
 		B0E9DFDB1ED28D820092EA68 /* DCPathButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCPathButton.m; sourceTree = "<group>"; };
 		B0E9DFDC1ED28D820092EA68 /* DCPathCenterButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCPathCenterButton.h; sourceTree = "<group>"; };
@@ -842,6 +848,8 @@
 		B0E9E04F1ED5686C0092EA68 /* TransitionAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				B0BBC0E71ED6B5A7002F89DE /* JKYTabBarControllerAnimation.h */,
+				B0BBC0E81ED6B5A7002F89DE /* JKYTabBarControllerAnimation.m */,
 				B0E9E0501ED5686C0092EA68 /* JKYBouncePresentAAnimation.h */,
 				B0E9E0511ED5686C0092EA68 /* JKYBouncePresentAAnimation.m */,
 				B0E9E0521ED5686C0092EA68 /* JKYBounceDismissAnimation.h */,
@@ -861,6 +869,8 @@
 		B0E9E0541ED5686C0092EA68 /* TransitionDelegate */ = {
 			isa = PBXGroup;
 			children = (
+				B0BBC0EA1ED6B6E6002F89DE /* JKYTabBarTransitionDelegate.h */,
+				B0BBC0EB1ED6B6E6002F89DE /* JKYTabBarTransitionDelegate.m */,
 				B0E9E05B1ED56A5A0092EA68 /* JKYBounceTransitionDelegate.h */,
 				B0E9E05C1ED56A5A0092EA68 /* JKYBounceTransitionDelegate.m */,
 				B0E9E0641ED578180092EA68 /* JKYFlipTransitionDelegate.h */,
@@ -1271,7 +1281,9 @@
 				B0E9E0831ED675010092EA68 /* JKYPageOverFromViewController.m in Sources */,
 				B04A5D971EC2B8A000610550 /* JKYAnimationViewController.m in Sources */,
 				B0E9E03B1ED41B090092EA68 /* JKYTabBar.m in Sources */,
+				B0BBC0EC1ED6B6E6002F89DE /* JKYTabBarTransitionDelegate.m in Sources */,
 				B0E9E0891ED676640092EA68 /* JKYPageOverTransitionDelegate.m in Sources */,
+				B0BBC0E91ED6B5A7002F89DE /* JKYTabBarControllerAnimation.m in Sources */,
 				B04A5DAA1ECC4DBE00610550 /* JKYSpringViewController.m in Sources */,
 				B04A5DAD1ECD487700610550 /* JKYLoginAnimationViewController.m in Sources */,
 				B08F8E5C1E6D3BCB00095FD6 /* JKYHomeViewController.m in Sources */,
