@@ -8,6 +8,8 @@
 
 #import "JKYTabBarViewController.h"
 #import "JKYTabBar.h"
+#import "JKYHomeViewController.h"
+#import "JKYTransitionAnimationViewController.h"
 
 
 
@@ -53,25 +55,25 @@
 {
     NSArray *item = @[
                       @{
-                          TabbarVC           : @"JKYHomeViewController",
+                          TabbarVC           : NSStringFromClass([JKYHomeViewController class]),
                           TabbarTitle        : @"首页",
                           TabbarImage        : @"icon_home_normal",
                           TabbarSelectedImage: @"icon_home_pressed",
                           },
                       @{
-                          TabbarVC           : @"JKYHomeViewController",
-                          TabbarTitle        : @"其他",
+                          TabbarVC           : NSStringFromClass([JKYTransitionAnimationViewController class]),
+                          TabbarTitle        : @"转场动画",
                           TabbarImage        : @"icon_kefuMenitor_normal",
                           TabbarSelectedImage: @"icon_kefuMenitor_pressed",
                           },
                       @{
-                          TabbarVC           : @"JKYHomeViewController",
+                          TabbarVC           : NSStringFromClass([JKYTransitionAnimationViewController class]),
                           TabbarTitle        : @"其他",
                           TabbarImage        : @"icon_sessionMonitor_normal",
                           TabbarSelectedImage: @"icon_sessionMonitor_pressed",
                           },
                       @{
-                          TabbarVC           : @"JKYHomeViewController",
+                          TabbarVC           : NSStringFromClass([JKYTransitionAnimationViewController class]),
                           TabbarTitle        : @"其他",
                           TabbarImage        : @"icon_historyData_normal",
                           TabbarSelectedImage: @"icon_historyData_pressed",

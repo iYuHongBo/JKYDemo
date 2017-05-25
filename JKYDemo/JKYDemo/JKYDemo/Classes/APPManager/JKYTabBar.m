@@ -22,7 +22,7 @@
 - (void)didMoveToSuperview
 {
     [super didMoveToSuperview];
-    self.delegate = self;
+//    self.delegate = self;
 }
 
 - (void)tabBar:(UITabBar *)tabBar didSelectItem:(UITabBarItem *)item
