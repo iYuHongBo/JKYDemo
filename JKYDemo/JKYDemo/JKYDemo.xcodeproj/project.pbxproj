@@ -43,6 +43,11 @@
 		B08F8E631E6D585800095FD6 /* JKYPageSlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B08F8E621E6D585800095FD6 /* JKYPageSlideViewController.m */; };
 		B0BBC0E91ED6B5A7002F89DE /* JKYTabBarControllerAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BBC0E81ED6B5A7002F89DE /* JKYTabBarControllerAnimation.m */; };
 		B0BBC0EC1ED6B6E6002F89DE /* JKYTabBarTransitionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BBC0EB1ED6B6E6002F89DE /* JKYTabBarTransitionDelegate.m */; };
+		B0BBC0EF1ED6CDD9002F89DE /* JKYPresentFromViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BBC0EE1ED6CDD9002F89DE /* JKYPresentFromViewController.m */; };
+		B0BBC0F21ED6CDE9002F89DE /* JKYPresentToViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BBC0F11ED6CDE9002F89DE /* JKYPresentToViewController.m */; };
+		B0BBC0F61ED6CE48002F89DE /* JKYPresentController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BBC0F51ED6CE48002F89DE /* JKYPresentController.m */; };
+		B0BBC0F91ED6D283002F89DE /* JKYPresentAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BBC0F81ED6D283002F89DE /* JKYPresentAnimation.m */; };
+		B0BBC0FC1ED6D78E002F89DE /* JKYPresentTransitionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BBC0FB1ED6D78E002F89DE /* JKYPresentTransitionDelegate.m */; };
 		B0E9DFE01ED28D820092EA68 /* DCPathButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E9DFDB1ED28D820092EA68 /* DCPathButton.m */; };
 		B0E9DFE11ED28D820092EA68 /* DCPathCenterButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E9DFDD1ED28D820092EA68 /* DCPathCenterButton.m */; };
 		B0E9DFE21ED28D820092EA68 /* DCPathItemButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E9DFDF1ED28D820092EA68 /* DCPathItemButton.m */; };
@@ -208,6 +213,16 @@
 		B0BBC0E81ED6B5A7002F89DE /* JKYTabBarControllerAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKYTabBarControllerAnimation.m; sourceTree = "<group>"; };
 		B0BBC0EA1ED6B6E6002F89DE /* JKYTabBarTransitionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKYTabBarTransitionDelegate.h; sourceTree = "<group>"; };
 		B0BBC0EB1ED6B6E6002F89DE /* JKYTabBarTransitionDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKYTabBarTransitionDelegate.m; sourceTree = "<group>"; };
+		B0BBC0ED1ED6CDD9002F89DE /* JKYPresentFromViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKYPresentFromViewController.h; sourceTree = "<group>"; };
+		B0BBC0EE1ED6CDD9002F89DE /* JKYPresentFromViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKYPresentFromViewController.m; sourceTree = "<group>"; };
+		B0BBC0F01ED6CDE9002F89DE /* JKYPresentToViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKYPresentToViewController.h; sourceTree = "<group>"; };
+		B0BBC0F11ED6CDE9002F89DE /* JKYPresentToViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKYPresentToViewController.m; sourceTree = "<group>"; };
+		B0BBC0F41ED6CE48002F89DE /* JKYPresentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKYPresentController.h; sourceTree = "<group>"; };
+		B0BBC0F51ED6CE48002F89DE /* JKYPresentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKYPresentController.m; sourceTree = "<group>"; };
+		B0BBC0F71ED6D283002F89DE /* JKYPresentAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKYPresentAnimation.h; sourceTree = "<group>"; };
+		B0BBC0F81ED6D283002F89DE /* JKYPresentAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKYPresentAnimation.m; sourceTree = "<group>"; };
+		B0BBC0FA1ED6D78E002F89DE /* JKYPresentTransitionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKYPresentTransitionDelegate.h; sourceTree = "<group>"; };
+		B0BBC0FB1ED6D78E002F89DE /* JKYPresentTransitionDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKYPresentTransitionDelegate.m; sourceTree = "<group>"; };
 		B0E9DFDA1ED28D820092EA68 /* DCPathButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCPathButton.h; sourceTree = "<group>"; };
 		B0E9DFDB1ED28D820092EA68 /* DCPathButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCPathButton.m; sourceTree = "<group>"; };
 		B0E9DFDC1ED28D820092EA68 /* DCPathCenterButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCPathCenterButton.h; sourceTree = "<group>"; };
@@ -697,6 +712,15 @@
 			path = CellDetailViewController;
 			sourceTree = "<group>";
 		};
+		B0BBC0F31ED6CE19002F89DE /* TransitionPresent */ = {
+			isa = PBXGroup;
+			children = (
+				B0BBC0F41ED6CE48002F89DE /* JKYPresentController.h */,
+				B0BBC0F51ED6CE48002F89DE /* JKYPresentController.m */,
+			);
+			path = TransitionPresent;
+			sourceTree = "<group>";
+		};
 		B0E9DFD91ED28D820092EA68 /* DCPathButton */ = {
 			isa = PBXGroup;
 			children = (
@@ -794,6 +818,7 @@
 				B0E9E0551ED5686C0092EA68 /* TransitionInteractive */,
 				B0E9E04F1ED5686C0092EA68 /* TransitionAnimation */,
 				B0E9E0541ED5686C0092EA68 /* TransitionDelegate */,
+				B0BBC0F31ED6CE19002F89DE /* TransitionPresent */,
 				B0E9E0401ED435B00092EA68 /* Model */,
 				B0E9E0411ED435B00092EA68 /* View */,
 				B0E9E0421ED435B00092EA68 /* ViewController */,
@@ -841,6 +866,10 @@
 				B0E9E0951ED682560092EA68 /* JKYCircleSpreadFromViewController.m */,
 				B0E9E0971ED683A20092EA68 /* JKYCircleSpreadToViewController.h */,
 				B0E9E0981ED683A20092EA68 /* JKYCircleSpreadToViewController.m */,
+				B0BBC0ED1ED6CDD9002F89DE /* JKYPresentFromViewController.h */,
+				B0BBC0EE1ED6CDD9002F89DE /* JKYPresentFromViewController.m */,
+				B0BBC0F01ED6CDE9002F89DE /* JKYPresentToViewController.h */,
+				B0BBC0F11ED6CDE9002F89DE /* JKYPresentToViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -862,6 +891,8 @@
 				B0E9E08B1ED676C40092EA68 /* JKYPageOverAnimation.m */,
 				B0E9E0911ED681B70092EA68 /* JKYCircleSpreadAnimation.h */,
 				B0E9E0921ED681B70092EA68 /* JKYCircleSpreadAnimation.m */,
+				B0BBC0F71ED6D283002F89DE /* JKYPresentAnimation.h */,
+				B0BBC0F81ED6D283002F89DE /* JKYPresentAnimation.m */,
 			);
 			path = TransitionAnimation;
 			sourceTree = "<group>";
@@ -881,6 +912,8 @@
 				B0E9E0881ED676640092EA68 /* JKYPageOverTransitionDelegate.m */,
 				B0E9E09A1ED683FD0092EA68 /* JKYCircleSpreadTransitionDelegate.h */,
 				B0E9E09B1ED683FD0092EA68 /* JKYCircleSpreadTransitionDelegate.m */,
+				B0BBC0FA1ED6D78E002F89DE /* JKYPresentTransitionDelegate.h */,
+				B0BBC0FB1ED6D78E002F89DE /* JKYPresentTransitionDelegate.m */,
 			);
 			path = TransitionDelegate;
 			sourceTree = "<group>";
@@ -1235,6 +1268,7 @@
 				B05509C41E70FE5500FB9DA8 /* JKYGroupContacts.m in Sources */,
 				B0E9E0241ED2D08E0092EA68 /* JKYShineParams.m in Sources */,
 				B0E9DFE01ED28D820092EA68 /* DCPathButton.m in Sources */,
+				B0BBC0F61ED6CE48002F89DE /* JKYPresentController.m in Sources */,
 				B0E9E06F1ED5A3E60092EA68 /* JKYFlipPresentingViewController.m in Sources */,
 				B0E9E0901ED67BAD0092EA68 /* UIView+anchorPoint.m in Sources */,
 				B0E9E0721ED5A7470092EA68 /* JKYMagicMoveFromViewController.m in Sources */,
@@ -1243,6 +1277,7 @@
 				B0E9E07D1ED5ABAD0092EA68 /* JKYMagicMoveTransitionDelegate.m in Sources */,
 				B0E9E0201ED293B20092EA68 /* MCFireworksView.m in Sources */,
 				B0E9E0991ED683A20092EA68 /* JKYCircleSpreadToViewController.m in Sources */,
+				B0BBC0F91ED6D283002F89DE /* JKYPresentAnimation.m in Sources */,
 				B0E9E02A1ED2D5F40092EA68 /* JKYShineImage.m in Sources */,
 				B0E9E01F1ED293B20092EA68 /* MCFireworksButton.m in Sources */,
 				B0E9E08C1ED676C40092EA68 /* JKYPageOverAnimation.m in Sources */,
@@ -1271,6 +1306,7 @@
 				B0E9E0661ED578180092EA68 /* JKYFlipTransitionDelegate.m in Sources */,
 				B0E9E0751ED5A8A70092EA68 /* JKYMagicMoveCell.m in Sources */,
 				B0E9E0451ED435E30092EA68 /* JKYBounceViewController.m in Sources */,
+				B0BBC0FC1ED6D78E002F89DE /* JKYPresentTransitionDelegate.m in Sources */,
 				B0E9E0931ED681B70092EA68 /* JKYCircleSpreadAnimation.m in Sources */,
 				B04DD16B1E702791009CF23E /* JKYSpellingCenter.m in Sources */,
 				B0E9E0631ED577AE0092EA68 /* JKYFlipViewController.m in Sources */,
@@ -1286,9 +1322,11 @@
 				B0BBC0E91ED6B5A7002F89DE /* JKYTabBarControllerAnimation.m in Sources */,
 				B04A5DAA1ECC4DBE00610550 /* JKYSpringViewController.m in Sources */,
 				B04A5DAD1ECD487700610550 /* JKYLoginAnimationViewController.m in Sources */,
+				B0BBC0EF1ED6CDD9002F89DE /* JKYPresentFromViewController.m in Sources */,
 				B08F8E5C1E6D3BCB00095FD6 /* JKYHomeViewController.m in Sources */,
 				B0E9E0591ED5686C0092EA68 /* JKYBounceDismissAnimation.m in Sources */,
 				B0E9E0601ED56FBE0092EA68 /* JKYFlipAnimation.m in Sources */,
+				B0BBC0F21ED6CDE9002F89DE /* JKYPresentToViewController.m in Sources */,
 				B0E9DFE21ED28D820092EA68 /* DCPathItemButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -12,6 +12,7 @@
 #import "JKYMagicMoveFromViewController.h"
 #import "JKYPageOverFromViewController.h"
 #import "JKYCircleSpreadFromViewController.h"
+#import "JKYPresentFromViewController.h"
 
 
 
@@ -70,6 +71,10 @@
                        @{
                            kCellVCName : NSStringFromClass([JKYCircleSpreadFromViewController class]),
                            kCellTitle : @"Circle Spread",
+                           },
+                       @{
+                           kCellVCName : NSStringFromClass([JKYPresentFromViewController class]),
+                           kCellTitle : @"Present",
                            },
                        ];
     return items;
