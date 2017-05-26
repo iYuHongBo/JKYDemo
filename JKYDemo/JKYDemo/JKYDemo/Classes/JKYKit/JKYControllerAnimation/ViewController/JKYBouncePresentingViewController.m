@@ -36,7 +36,7 @@
 
 - (void)initUI
 {
-    self.navigationItem.title = @"专场动画";
+    self.navigationItem.title = @"转场动画";
     self.view.backgroundColor = [UIColor whiteColor];
     
     [self.view addSubview:self.bounceButton];

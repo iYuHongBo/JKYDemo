@@ -86,7 +86,6 @@
     UIBezierPath *endCycle =  [UIBezierPath bezierPathWithOvalInRect:temp.buttonFrame];
     //创建CAShapeLayer进行遮盖
     CAShapeLayer *maskLayer = [CAShapeLayer layer];
-    maskLayer.fillColor = [UIColor greenColor].CGColor;
     maskLayer.path = endCycle.CGPath;
     fromVC.view.layer.mask = maskLayer;
     //创建路径动画

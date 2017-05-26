@@ -48,6 +48,7 @@
 		B0BBC0F61ED6CE48002F89DE /* JKYPresentController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BBC0F51ED6CE48002F89DE /* JKYPresentController.m */; };
 		B0BBC0F91ED6D283002F89DE /* JKYPresentAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BBC0F81ED6D283002F89DE /* JKYPresentAnimation.m */; };
 		B0BBC0FC1ED6D78E002F89DE /* JKYPresentTransitionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BBC0FB1ED6D78E002F89DE /* JKYPresentTransitionDelegate.m */; };
+		B0BBC10A1ED7D848002F89DE /* JKYTransitionAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BBC1091ED7D848002F89DE /* JKYTransitionAnimationViewController.m */; };
 		B0E9DFE01ED28D820092EA68 /* DCPathButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E9DFDB1ED28D820092EA68 /* DCPathButton.m */; };
 		B0E9DFE11ED28D820092EA68 /* DCPathCenterButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E9DFDD1ED28D820092EA68 /* DCPathCenterButton.m */; };
 		B0E9DFE21ED28D820092EA68 /* DCPathItemButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E9DFDF1ED28D820092EA68 /* DCPathItemButton.m */; };
@@ -86,7 +87,6 @@
 		B0E9E0351ED2E7660092EA68 /* JKYShineAngleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E9E0341ED2E7660092EA68 /* JKYShineAngleLayer.m */; };
 		B0E9E0381ED308E10092EA68 /* JKYShineClickLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E9E0371ED308E10092EA68 /* JKYShineClickLayer.m */; };
 		B0E9E03B1ED41B090092EA68 /* JKYTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E9E03A1ED41B090092EA68 /* JKYTabBar.m */; };
-		B0E9E03E1ED434F30092EA68 /* JKYTransitionAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E9E03D1ED434F30092EA68 /* JKYTransitionAnimationViewController.m */; };
 		B0E9E0451ED435E30092EA68 /* JKYBounceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E9E0441ED435E30092EA68 /* JKYBounceViewController.m */; };
 		B0E9E0581ED5686C0092EA68 /* JKYBouncePresentAAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E9E0511ED5686C0092EA68 /* JKYBouncePresentAAnimation.m */; };
 		B0E9E0591ED5686C0092EA68 /* JKYBounceDismissAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E9E0531ED5686C0092EA68 /* JKYBounceDismissAnimation.m */; };
@@ -223,6 +223,8 @@
 		B0BBC0F81ED6D283002F89DE /* JKYPresentAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKYPresentAnimation.m; sourceTree = "<group>"; };
 		B0BBC0FA1ED6D78E002F89DE /* JKYPresentTransitionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKYPresentTransitionDelegate.h; sourceTree = "<group>"; };
 		B0BBC0FB1ED6D78E002F89DE /* JKYPresentTransitionDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKYPresentTransitionDelegate.m; sourceTree = "<group>"; };
+		B0BBC1081ED7D848002F89DE /* JKYTransitionAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKYTransitionAnimationViewController.h; sourceTree = "<group>"; };
+		B0BBC1091ED7D848002F89DE /* JKYTransitionAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKYTransitionAnimationViewController.m; sourceTree = "<group>"; };
 		B0E9DFDA1ED28D820092EA68 /* DCPathButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCPathButton.h; sourceTree = "<group>"; };
 		B0E9DFDB1ED28D820092EA68 /* DCPathButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCPathButton.m; sourceTree = "<group>"; };
 		B0E9DFDC1ED28D820092EA68 /* DCPathCenterButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCPathCenterButton.h; sourceTree = "<group>"; };
@@ -276,8 +278,6 @@
 		B0E9E0371ED308E10092EA68 /* JKYShineClickLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKYShineClickLayer.m; sourceTree = "<group>"; };
 		B0E9E0391ED41B090092EA68 /* JKYTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKYTabBar.h; sourceTree = "<group>"; };
 		B0E9E03A1ED41B090092EA68 /* JKYTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKYTabBar.m; sourceTree = "<group>"; };
-		B0E9E03C1ED434F30092EA68 /* JKYTransitionAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKYTransitionAnimationViewController.h; sourceTree = "<group>"; };
-		B0E9E03D1ED434F30092EA68 /* JKYTransitionAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKYTransitionAnimationViewController.m; sourceTree = "<group>"; };
 		B0E9E0431ED435E30092EA68 /* JKYBounceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKYBounceViewController.h; sourceTree = "<group>"; };
 		B0E9E0441ED435E30092EA68 /* JKYBounceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKYBounceViewController.m; sourceTree = "<group>"; };
 		B0E9E0501ED5686C0092EA68 /* JKYBouncePresentAAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKYBouncePresentAAnimation.h; sourceTree = "<group>"; };
@@ -646,6 +646,7 @@
 				B04DD14C1E6FF996009CF23E /* JKYKit */,
 				B08F8E4F1E6D0FAE00095FD6 /* APPManager */,
 				B08F8E531E6D33B400095FD6 /* Home */,
+				B0BBC1041ED7D848002F89DE /* Transition */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -691,8 +692,6 @@
 				B08F8E5D1E6D3C2800095FD6 /* CellDetailViewController */,
 				B08F8E5A1E6D3BCB00095FD6 /* JKYHomeViewController.h */,
 				B08F8E5B1E6D3BCB00095FD6 /* JKYHomeViewController.m */,
-				B0E9E03C1ED434F30092EA68 /* JKYTransitionAnimationViewController.h */,
-				B0E9E03D1ED434F30092EA68 /* JKYTransitionAnimationViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -719,6 +718,39 @@
 				B0BBC0F51ED6CE48002F89DE /* JKYPresentController.m */,
 			);
 			path = TransitionPresent;
+			sourceTree = "<group>";
+		};
+		B0BBC1041ED7D848002F89DE /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+				B0BBC1051ED7D848002F89DE /* Model */,
+				B0BBC1061ED7D848002F89DE /* View */,
+				B0BBC1071ED7D848002F89DE /* ViewController */,
+			);
+			path = Transition;
+			sourceTree = "<group>";
+		};
+		B0BBC1051ED7D848002F89DE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B0BBC1061ED7D848002F89DE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B0BBC1071ED7D848002F89DE /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B0BBC1081ED7D848002F89DE /* JKYTransitionAnimationViewController.h */,
+				B0BBC1091ED7D848002F89DE /* JKYTransitionAnimationViewController.m */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		B0E9DFD91ED28D820092EA68 /* DCPathButton */ = {
@@ -1261,6 +1293,7 @@
 				B0E9E0151ED28F940092EA68 /* JKYApplicationAnimationViewController.m in Sources */,
 				B0E9E0321ED2DF910092EA68 /* JKYShineLayer.m in Sources */,
 				B04A5D9E1EC434A800610550 /* JKYBaseAnimationViewController.m in Sources */,
+				B0BBC10A1ED7D848002F89DE /* JKYTransitionAnimationViewController.m in Sources */,
 				B08F8E181E6D094300095FD6 /* main.m in Sources */,
 				B0E9E0381ED308E10092EA68 /* JKYShineClickLayer.m in Sources */,
 				B0E9E05D1ED56A5A0092EA68 /* JKYBounceTransitionDelegate.m in Sources */,
@@ -1298,7 +1331,6 @@
 				B04DD16A1E702791009CF23E /* JKYPinyinConverter.m in Sources */,
 				B08F8E521E6D102000095FD6 /* JKYTabBarViewController.m in Sources */,
 				B06504B51EA5E45A005A6A11 /* JKYDatePickerViewController.m in Sources */,
-				B0E9E03E1ED434F30092EA68 /* JKYTransitionAnimationViewController.m in Sources */,
 				B04A5DA41EC9ADF300610550 /* JKYGroupAnimationViewController.m in Sources */,
 				B0683AA71E9639640014FF0B /* JKYCustomUIViewController.m in Sources */,
 				B0E9E0271ED2D5070092EA68 /* JKYShineButton.m in Sources */,

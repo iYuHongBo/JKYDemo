@@ -57,9 +57,6 @@
     } completion:^(id<UIViewControllerTransitionCoordinatorContext>  _Nonnull context) {
         
     }];
-    
-    
-    
 }
 
 - (void)presentationTransitionDidEnd:(BOOL)completed

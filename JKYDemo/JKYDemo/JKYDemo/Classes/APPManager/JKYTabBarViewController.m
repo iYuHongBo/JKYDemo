@@ -75,14 +75,14 @@
                           TabbarSelectedImage: @"icon_kefuMenitor_pressed",
                           },
                       @{
-                          TabbarVC           : NSStringFromClass([JKYTransitionAnimationViewController class]),
-                          TabbarTitle        : @"其他",
+                          TabbarVC           : NSStringFromClass([UIViewController class]),
+                          TabbarTitle        : @"么么",
                           TabbarImage        : @"icon_sessionMonitor_normal",
                           TabbarSelectedImage: @"icon_sessionMonitor_pressed",
                           },
                       @{
-                          TabbarVC           : NSStringFromClass([JKYTransitionAnimationViewController class]),
-                          TabbarTitle        : @"其他",
+                          TabbarVC           : NSStringFromClass([UIViewController class]),
+                          TabbarTitle        : @"哒哒",
                           TabbarImage        : @"icon_historyData_normal",
                           TabbarSelectedImage: @"icon_historyData_pressed",
                           },
